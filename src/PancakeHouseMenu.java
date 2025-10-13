@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Iterator;
 
 public class PancakeHouseMenu {
     ArrayList<MenuItem> menuItems;
@@ -36,7 +37,8 @@ public class PancakeHouseMenu {
 
     //public ArrayList<MenuItem> getMenuItems(){return menuItems;}
 
-    public Iterator createIterator(){
-        return new PancakeHouseIterator(menuItems);
-    }
+    //old
+    //public Iterator createIterator(){return new PancakeHouseIterator(menuItems);}
+    //new iterator
+    public Iterator<MenuItem> createIterator(){return menuItems.iterator();}
 }
