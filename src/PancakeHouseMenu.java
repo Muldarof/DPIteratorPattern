@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PancakeHouseMenu {
-    List<MenuItem> menuItems;
+    ArrayList<MenuItem> menuItems;
 
     public PancakeHouseMenu(){
         menuItems = new ArrayList<MenuItem>();
@@ -34,7 +34,7 @@ public class PancakeHouseMenu {
         menuItems.add(menuItem);
     }
 
-    public List<MenuItem> getMenuItems(){return menuItems;}
+    public ArrayList<MenuItem> getMenuItems(){return menuItems;}
 
 
 }
