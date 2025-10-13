@@ -19,7 +19,7 @@ public class Waitress {
         printMenu(dinerIterator);
     }
 
-    public void printMenu(Iterator iterator){
+    private void printMenu(Iterator iterator){
         while(iterator.hasNext()){
             MenuItem menuItem = iterator.next();
             System.out.print(menuItem.getName() + ", ");
