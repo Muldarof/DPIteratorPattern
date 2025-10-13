@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Iterator;
 
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu{
     ArrayList<MenuItem> menuItems;
 
     public PancakeHouseMenu(){
