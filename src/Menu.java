@@ -18,5 +18,5 @@ public class Menu extends MenuComponent{
     public String getName(){return name;}
     public String getDescription(){return description;}
 
-    public Iterator<MenuItem> createIterator();
+    //public Iterator<MenuItem> createIterator();
 }
